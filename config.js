@@ -1,31 +1,4 @@
 // ============================================
-// 💝 LOAD ROMANTIC FONTS & APPLY STYLES 💝
-// ============================================
-
-// Load Google Fonts
-const fontLink = document.createElement("link");
-fontLink.href = "https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Nunito:wght@400;600&family=Quicksand:wght@500;700&display=swap";
-fontLink.rel = "stylesheet";
-document.head.appendChild(fontLink);
-
-// Apply fonts to the page
-const romanticStyle = document.createElement("style");
-romanticStyle.innerHTML = `
-    h1, h2, .question-text {
-        font-family: 'Dancing Script', cursive !important;
-    }
-
-    button {
-        font-family: 'Quicksand', sans-serif !important;
-    }
-
-    p, .message, .love-meter-text {
-        font-family: 'Nunito', sans-serif !important;
-    }
-`;
-document.head.appendChild(romanticStyle);
-
-// ============================================
 // 💝 CUSTOMIZE YOUR VALENTINE'S WEBSITE HERE 💝
 // ============================================
 
